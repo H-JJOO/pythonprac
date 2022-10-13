@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="241b1a08-f3ca-4046-b456-83f7e4ca8da0" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/dbmovie.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dbprac.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/genie.py" afterDir="false" />
+    <list default="true" id="241b1a08-f3ca-4046-b456-83f7e4ca8da0" name="변경" comment="DAY 6 파이썬 크롤링, DB 웹스크래핑(숙제)">
+      <change afterPath="$PROJECT_DIR$/prac.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prac.py" beforeDir="false" afterPath="$PROJECT_DIR$/hello.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +41,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.genie">
+  <component name="RunManager" selected="Python.prac">
     <configuration name="dbmovie" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonprac" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -133,7 +130,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="hello" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="prac" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonprac" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -146,7 +143,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\jhyeo\Desktop\sparta\pythonprac\hello.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/prac.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -157,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.prac" />
         <item itemvalue="Python.genie" />
         <item itemvalue="Python.hello (1)" />
         <item itemvalue="Python.dbmovie" />
         <item itemvalue="Python.dbprac" />
-        <item itemvalue="Python.hello" />
       </list>
     </recent_temporary>
   </component>
@@ -177,8 +174,16 @@
       <workItem from="1665554731709" duration="1564000" />
       <workItem from="1665560641802" duration="2625000" />
       <workItem from="1665641484005" duration="2328000" />
-      <workItem from="1665644332142" duration="5064000" />
+      <workItem from="1665644332142" duration="7771000" />
     </task>
+    <task id="LOCAL-00001" summary="DAY 6 파이썬 크롤링, DB 웹스크래핑(숙제)">
+      <created>1665649635302</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1665649635302</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,12 +200,16 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="DAY 6 파이썬 크롤링, DB 웹스크래핑(숙제)" />
+    <option name="LAST_COMMIT_MESSAGE" value="DAY 6 파이썬 크롤링, DB 웹스크래핑(숙제)" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/pythonprac$dbprac.coverage" NAME="dbprac 커버리지 결과" MODIFIED="1665646685893" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pythonprac$test.coverage" NAME="test 커버리지 결과" MODIFIED="1665562819395" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv" />
     <SUITE FILE_PATH="coverage/pythonprac$dbmovie.coverage" NAME="dbmovie 커버리지 결과" MODIFIED="1665648111463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pythonprac$hello__1_.coverage" NAME="hello (1) 커버리지 결과" MODIFIED="1665648814276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pythonprac$genie.coverage" NAME="genie 커버리지 결과" MODIFIED="1665649373343" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/pythonprac$prac.coverage" NAME="prac 커버리지 결과" MODIFIED="1665642584123" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pythonprac$prac.coverage" NAME="prac 커버리지 결과" MODIFIED="1665651889125" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
